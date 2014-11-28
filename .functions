@@ -16,6 +16,9 @@ function calc() {
 	printf "\n";
 }
 
+function cd() { 
+	builtin cd "$@"; ls -lF ${colorflag}; 
+}               # Always list directory contents upon 'cd'
 # Create a new directory and enter it
 function mkd() {
 	mkdir -p "$@" && cd "$_";
