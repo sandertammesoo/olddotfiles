@@ -23,4 +23,3 @@ export GREP_OPTIONS="--color=auto";
 
 #export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/"
 export ANDROID_HOME=/usr/local/opt/android-sdk
-export WAZOMBI_SDK_PATH=$HOME/Documents/Dropbox/nrfdev
