@@ -1,7 +1,11 @@
 
 export PATH="$ANDROID_HOME/tools:$PATH";
 export PATH="$ANDROID_HOME/platform-tools:$PATH";
+
 export PATH="/usr/local/gcc_arm/gcc-arm-none-eabi-4_9-2014q4/bin:$PATH";
 export PATH="/usr/local/sbin:$PATH";
-export PATH="$PATH:$GOPATH/bin";
-export PATH="$PATH:/usr/local/opt/go/libexec/bin";
+
+export PATH="$GOPATH/bin:$PATH";
+export PATH="/usr/local/opt/go/libexec/bin:$PATH";
+
+export PATH="$HOME/.jenv/bin:$PATH";

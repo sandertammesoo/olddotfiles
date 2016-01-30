@@ -45,6 +45,7 @@ brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/screen
 brew install homebrew/php/php55 --with-gmp
+brew install homebrew/completions/brew-cask-completion
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 # brew install bfg
@@ -82,9 +83,10 @@ brew install homebrew/php/php55 --with-gmp
 # brew install pv
 # brew install rename
 # brew install rhino
-brew install tree
+# brew install tree
 # brew install webkit2png
 # brew install zopfli
+# brew install jenv
 
 # Install Node.js. Note: this installs `npm` too, using the recommended
 # installation method.
